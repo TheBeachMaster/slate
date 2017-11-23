@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 sudo: false
 
 language: ruby
@@ -9,3 +10,15 @@ rvm:
 
 cache: bundler
 script: bundle exec middleman build
+=======
+sudo: false
+
+language: ruby
+
+rvm:
+  - 2.3.3
+  - 2.4.0
+
+cache: bundler
+script: bundle exec middleman build
+>>>>>>> upstream/master
