@@ -10,4 +10,3 @@ If you're actually trying to submit a change to upstream Slate, please submit to
 
 👆👆 see that 'base fork' dropdown above? You should change it! The default value of "lord/slate" submits your change to ALL USERS OF SLATE, not just your company. This is PROBABLY NOT WHAT YOU WANT.
 -->
->>>>>>> 2245e95e485f9a2e583890a118aadc1bab964eac
