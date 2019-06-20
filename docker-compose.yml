@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  slate:
+    image: slate
+    build: .
+    ports:
+      - 4567:4567
+  volumes:
+    - ../../docs/slate:/usr/src/app/source
+    - ../../out/docs/slate:/usr/src/app/build

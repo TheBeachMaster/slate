@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  slate:
+    image: slate
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+        - 4567:4567
